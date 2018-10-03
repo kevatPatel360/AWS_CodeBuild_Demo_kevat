@@ -14,5 +14,5 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - zip -r AntExample-kevat.zip dist/AntExample.war
+      - zip -r AntExample-kevat.zip dist/AntExample.war kevat.txt
       - aws s3 cp AntExample-kevat.zip s3://akash.codedeploy.com/Kevat/userver/
