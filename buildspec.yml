@@ -15,4 +15,4 @@ phases:
     commands:
       - echo Build completed on `date`
       - zip -r AntExample.zip dist/AntExample.war
-      - aws s3 cp AntExample.zip s3://akash.codedeploy.com/
+      - aws s3 cp AntExample.zip s3://akash.codedeploy.com/Kevat/userver/
